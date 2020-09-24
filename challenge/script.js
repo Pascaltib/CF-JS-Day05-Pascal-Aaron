@@ -3,7 +3,7 @@ var carArr = JSON.parse(cars);
 
 //creates and displays the JSON content into the html file
 for (var i = 0; i < carArr.length; i++) {
-    document.getElementById("main").innerHTML += `<div id='car${i}'> <img ${carArr[i].Img} id='img${i}'> <br> <p> ${carArr[i].Model} </p> <div id='moreInfo${i}'></div></div>`;
+    document.getElementById("main").innerHTML += `<div id='car${i}'> <img ${carArr[i].Img} id='img${i}'> <br> <p> Model: ${carArr[i].Model} </p> <div id='moreInfo${i}'></div></div>`;
 }
 
 //creating a variable to enable a if statement loop
@@ -11,7 +11,7 @@ var test = 2;
 
 //changes the display size from small to big 
 function expand(x) {
-    document.getElementById("moreInfo" + x).innerHTML = `<p>Brand: ${carArr[x].Brand} </p>  <p>Model: ${carArr[x].Model} </p>
+    document.getElementById("moreInfo" + x).innerHTML = `<p>Brand: ${carArr[x].Brand} </p>  
       <p>Year: ${carArr[x].Year} </p>  <p>Engine: ${carArr[x].Engine} </p> <p>Price: ${carArr[x].Price} </p>`;
       document.getElementById('img'+x).style.width = "30em";
       document.getElementById('img'+x).style.height = "24em";
