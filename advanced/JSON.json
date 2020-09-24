@@ -1,0 +1,20 @@
+var books = `[{
+    "title": "Harry Potter1",
+    "author": "J.K Rowling",
+    "read": "true",
+    "image": "src = 'https://images-na.ssl-images-amazon.com/images/I/81iqZ2HHD-L.jpg'"
+
+},{
+    "title": "Harry Potter2",
+    "author": "J.K Rowling",
+    "read": "true",
+    "image": "src = 'https://images-na.ssl-images-amazon.com/images/I/81v0sgbcSWL.jpg'"
+
+},{
+    "title": "Harry Potter3",
+    "author": "J.K Rowling",
+    "read": "false",
+    "image": "src = 'https://i.pinimg.com/originals/67/b7/a2/67b7a244725de777a4f814d8ca140d94.jpg'"
+}
+
+]`
