@@ -1,0 +1,81 @@
+var employee = `[{
+    "UniqueID":     "001",
+    "FirstName":    "Bob",
+    "LastName":     "Builder",
+    "Emailaddress": "wecanfixit@gmail.com",
+    "JobTitle":     "Builder",
+    "Salary":       "1000$"
+},
+{
+    "UniqueID":     "002",
+    "FirstName":    "Bob2",
+    "LastName":     "Builder2",
+    "Emailaddress": "wecanfixit2@gmail.com",
+    "JobTitle":     "Fixer",
+    "Salary":       "1001$"
+},
+{
+    "UniqueID":     "003",
+    "FirstName":    "Bob3",
+    "LastName":     "Builder3",
+    "Emailaddress": "wecanfixit3@gmail.com",
+    "JobTitle":     "Fixer",
+    "Salary":       "1001$"
+},
+{
+    "UniqueID":     "004",
+    "FirstName":    "Bob4",
+    "LastName":     "Builder4",
+    "Emailaddress": "wecanfixit4@gmail.com",
+    "JobTitle":     "Fixer",
+    "Salary":       "1001$"
+},
+{
+    "UniqueID":     "005",
+    "FirstName":    "Bob5",
+    "LastName":     "Builder5",
+    "Emailaddress": "wecanfixit2@gmail.com",
+    "JobTitle":     "Fixer",
+    "Salary":       "1001$"
+},
+{
+    "UniqueID":     "006",
+    "FirstName":    "Bob6",
+    "LastName":     "Builder6",
+    "Emailaddress": "wecanfixit2@gmail.com",
+    "JobTitle":     "Fixer",
+    "Salary":       "1001$"
+},
+{
+    "UniqueID":     "007",
+    "FirstName":    "James",
+    "LastName":     "Bond",
+    "Emailaddress": "*confidential*",
+    "JobTitle":     "Spy",
+    "Salary":       "1 Million$"
+},
+{
+    "UniqueID":     "008",
+    "FirstName":    "Bob8",
+    "LastName":     "Builder8",
+    "Emailaddress": "wecanfixit8@gmail.com",
+    "JobTitle":     "Builder",
+    "Salary":       "1008$"
+},
+{
+    "UniqueID":     "009",
+    "FirstName":    "Bob9",
+    "LastName":     "Builder9",
+    "Emailaddress": "wecanfixit9@gmail.com",
+    "JobTitle":     "Fixer",
+    "Salary":       "1009$"
+},
+{
+    "UniqueID":     "010",
+    "FirstName":    "Bob10",
+    "LastName":     "Builder10",
+    "Emailaddress": "wecanfixit10@gmail.com",
+    "JobTitle":     "Worker",
+    "Salary":       "1010$"
+}
+]`
